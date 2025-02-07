@@ -3,5 +3,6 @@ export interface Crypto {
   name: string;
   symbol: string;
   current_price: number;
+  market_cap: number;
   image: string;
 }
